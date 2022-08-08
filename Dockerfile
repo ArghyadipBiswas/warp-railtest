@@ -10,8 +10,6 @@ RUN apt install wget -y
 
 RUN pip3 install amino.py
 
-RUN wget https://raw.githubusercontent.com/69root69/warp/master/wp-plus.py
-
 COPY . .
 
 RUN chmod +x start.sh
